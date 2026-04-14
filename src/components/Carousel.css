@@ -1,0 +1,148 @@
+.carousel-container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 25px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.carousel-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.carousel-content {
+  text-align: center;
+  padding: 0 2rem;
+  max-width: 700px;
+}
+
+.carousel-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.carousel-content p {
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.tech-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 25px;
+  margin: 0.3rem;
+  font-size: 0.85rem;
+}
+
+.carousel-image-container {
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.carousel-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-image-nav {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.3rem 1rem;
+  border-radius: 30px;
+}
+
+.carousel-img-btn {
+  background: white;
+  border: none;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.carousel-img-btn:hover {
+  background: #3498db;
+  color: white;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.project-links a {
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.project-links a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #bdc3c7;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.indicator.active {
+  background: #3498db;
+  transform: scale(1.3);
+}

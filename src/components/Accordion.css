@@ -1,0 +1,33 @@
+.accordion {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 1rem;
+  background: #f8f9fa;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.accordion-header:hover {
+  background: #e9ecef;
+}
+
+.accordion-content {
+  padding: 1rem;
+  background: white;
+  line-height: 1.6;
+}
